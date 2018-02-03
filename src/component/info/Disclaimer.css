@@ -1,0 +1,50 @@
+.disclaimer {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  background: #231F20;
+  left: 0;
+  top: 0;
+}
+
+.disclaimer .content {
+  width: 1280px;
+  height: 720px;
+  margin: auto;
+  margin-top: calc((1080px - 720px)/2);
+  background: #000;
+  position: relative;
+}
+
+.disclaimer h1 {
+  padding: 10px 10px;
+  font-size: 42px;
+  text-align: center;
+  background-color: #FF0000;
+  color: #FFF;
+}
+
+.disclaimer h2 {
+  padding: 20px 20px;
+  font-size: 28px;
+  color: #F3D837;
+  text-indent: 64px;
+}
+
+.disclaimer .emphasis {
+  font-size: 36px;
+  color: #FF0000;
+}
+
+.disclaimer .warning-icon {
+  position: absolute;
+  right: 60px;
+  bottom: 80px;
+  cursor: pointer;
+}
+
+.disclaimer .qr-code-icon {
+  position: absolute;
+  right: 320px;
+  bottom: 80px;
+}

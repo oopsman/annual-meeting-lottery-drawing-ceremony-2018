@@ -1,0 +1,30 @@
+body {
+  background: #231F20;
+  /*background: #000;*/
+}
+
+.main {
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.buttons {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+button {
+  background: #1DA9D2;
+  padding: 10px;
+  font-size: 32px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+button:hover {
+  background: #7D247F;
+  color: #FFF;
+}
