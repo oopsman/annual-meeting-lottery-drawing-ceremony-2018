@@ -236,6 +236,14 @@ class VisTreeEnv extends General3DEnv {
     }
   }
 
+  /**
+   * 动画运动镜头过场。
+   * @param cameraPosition0
+   * @param cameraPosition1
+   * @param controlsTarget0
+   * @param controlsTarget1
+   * @private
+   */
   _moveCamera(cameraPosition0, cameraPosition1, controlsTarget0, controlsTarget1) {
     const me = this;
     const camera = me.camera;
